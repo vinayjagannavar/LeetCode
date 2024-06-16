@@ -8,9 +8,11 @@ A collection of LeetCode questions to ace the coding interview!
 # Depth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
 # Breadth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vinayjagannavar/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1036-rotting-oranges](https://github.com/vinayjagannavar/LeetCode/tree/master/1036-rotting-oranges) |
 # Graph
@@ -28,8 +30,14 @@ A collection of LeetCode questions to ace the coding interview!
 # Array
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
 | [1036-rotting-oranges](https://github.com/vinayjagannavar/LeetCode/tree/master/1036-rotting-oranges) |
 # Matrix
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
 | [1036-rotting-oranges](https://github.com/vinayjagannavar/LeetCode/tree/master/1036-rotting-oranges) |
+# Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
