@@ -10,18 +10,21 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/vinayjagannavar/LeetCode/tree/master/0207-course-schedule) |
+| [0820-find-eventual-safe-states](https://github.com/vinayjagannavar/LeetCode/tree/master/0820-find-eventual-safe-states) |
 # Breadth-First Search
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/vinayjagannavar/LeetCode/tree/master/0207-course-schedule) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vinayjagannavar/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0820-find-eventual-safe-states](https://github.com/vinayjagannavar/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/vinayjagannavar/LeetCode/tree/master/1036-rotting-oranges) |
 # Graph
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/vinayjagannavar/LeetCode/tree/master/0207-course-schedule) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vinayjagannavar/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0820-find-eventual-safe-states](https://github.com/vinayjagannavar/LeetCode/tree/master/0820-find-eventual-safe-states) |
 # Heap (Priority Queue)
 |  |
 | ------- |
@@ -48,3 +51,4 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/vinayjagannavar/LeetCode/tree/master/0207-course-schedule) |
+| [0820-find-eventual-safe-states](https://github.com/vinayjagannavar/LeetCode/tree/master/0820-find-eventual-safe-states) |
