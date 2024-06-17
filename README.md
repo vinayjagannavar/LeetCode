@@ -52,3 +52,15 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0207-course-schedule](https://github.com/vinayjagannavar/LeetCode/tree/master/0207-course-schedule) |
 | [0820-find-eventual-safe-states](https://github.com/vinayjagannavar/LeetCode/tree/master/0820-find-eventual-safe-states) |
+# Math
+|  |
+| ------- |
+| [0633-sum-of-square-numbers](https://github.com/vinayjagannavar/LeetCode/tree/master/0633-sum-of-square-numbers) |
+# Two Pointers
+|  |
+| ------- |
+| [0633-sum-of-square-numbers](https://github.com/vinayjagannavar/LeetCode/tree/master/0633-sum-of-square-numbers) |
+# Binary Search
+|  |
+| ------- |
+| [0633-sum-of-square-numbers](https://github.com/vinayjagannavar/LeetCode/tree/master/0633-sum-of-square-numbers) |
