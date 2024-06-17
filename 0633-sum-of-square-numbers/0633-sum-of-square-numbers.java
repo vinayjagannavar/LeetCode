@@ -1,12 +1,12 @@
 class Solution {
     public boolean judgeSquareSum(int c) {
-        int max = (int) Math.sqrt(c);
+        long max = (int) Math.sqrt(c);
 
-        int left=0;
-        int right=max;
+        long left=0;
+        long right=max;
 
         while(left<=right){
-            long sum = (long)left * left + (long)right * right;
+            long sum = left * left + right * right;
             if(sum==c){
                 return true;
             }
