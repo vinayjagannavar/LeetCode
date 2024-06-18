@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
+| [0853-most-profit-assigning-work](https://github.com/vinayjagannavar/LeetCode/tree/master/0853-most-profit-assigning-work) |
 | [1036-rotting-oranges](https://github.com/vinayjagannavar/LeetCode/tree/master/1036-rotting-oranges) |
 # Matrix
 |  |
@@ -60,7 +61,17 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0633-sum-of-square-numbers](https://github.com/vinayjagannavar/LeetCode/tree/master/0633-sum-of-square-numbers) |
+| [0853-most-profit-assigning-work](https://github.com/vinayjagannavar/LeetCode/tree/master/0853-most-profit-assigning-work) |
 # Binary Search
 |  |
 | ------- |
 | [0633-sum-of-square-numbers](https://github.com/vinayjagannavar/LeetCode/tree/master/0633-sum-of-square-numbers) |
+| [0853-most-profit-assigning-work](https://github.com/vinayjagannavar/LeetCode/tree/master/0853-most-profit-assigning-work) |
+# Greedy
+|  |
+| ------- |
+| [0853-most-profit-assigning-work](https://github.com/vinayjagannavar/LeetCode/tree/master/0853-most-profit-assigning-work) |
+# Sorting
+|  |
+| ------- |
+| [0853-most-profit-assigning-work](https://github.com/vinayjagannavar/LeetCode/tree/master/0853-most-profit-assigning-work) |
