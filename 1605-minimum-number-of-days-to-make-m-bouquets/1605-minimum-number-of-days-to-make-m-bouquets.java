@@ -42,15 +42,12 @@ class Solution {
                 }
             }
             else{
+                if((bloomDay.length-i)/k < m-noOfbouquets)
+                    return false;
                 count=0;
             }
         }
 
-        if(noOfbouquets >= m){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return false;
     }
 }
