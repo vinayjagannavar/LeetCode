@@ -7,11 +7,10 @@ class Solution {
             return -1;
         }
 
-        int min = Integer.MAX_VALUE;
+        int min = 1;
         int max = Integer.MAX_VALUE;
         for(int day: bloomDay){
             max = Math.max(max,day);
-            min = Math.min(min,day);
         }
 
         while(min <= max){
