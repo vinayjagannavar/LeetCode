@@ -34,13 +34,18 @@ class Solution {
         for(int i=0; i<bloomDay.length; i++){
             if(bloomDay[i]<=day){
                 count++;
+                if(count==k){
+                    count=0;
+                    noOfbouquets++;
+                    if(noOfbouquets==m){
+                        return true;
+                    }
+                }
             }
             else{
-                noOfbouquets += count/k;
-                count = 0;
+                count=0;
             }
         }
-        noOfbouquets += count/k;
 
         if(noOfbouquets >= m){
             return true;
