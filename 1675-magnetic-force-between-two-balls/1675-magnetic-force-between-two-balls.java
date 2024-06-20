@@ -22,7 +22,6 @@ class Solution {
     }
 
     private boolean isPossible(int[] position, int m, int mid){
-        int min = Integer.MAX_VALUE;
         int prev = position[0];
         for(int i=1; i<position.length; i++){
             if(position[i] - prev >= mid){
