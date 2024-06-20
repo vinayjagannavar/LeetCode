@@ -3,9 +3,6 @@ class Solution {
         int n = position.length;
 
         Arrays.sort(position);
-        if(m==2){
-            return position[n-1] - position[0];
-        }
 
         int low = 0;
         int high = position[n-1] - position[0];
