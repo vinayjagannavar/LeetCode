@@ -1,5 +1,7 @@
 class Solution {
     public int maxDistance(int[] position, int m) {
+        int n = position.length;
+
         Arrays.sort(position);
 
         int low = 1;
@@ -21,7 +23,7 @@ class Solution {
         
     }
 
-    private boolean isPossible(int[] position, int m, int mid){
+    private static boolean isPossible(int[] position, int m, int mid){
         int count = 1;
         int prev = position[0];
         for(int i=1; i<position.length; i++){
