@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0853-most-profit-assigning-work](https://github.com/vinayjagannavar/LeetCode/tree/master/0853-most-profit-assigning-work) |
 | [1036-rotting-oranges](https://github.com/vinayjagannavar/LeetCode/tree/master/1036-rotting-oranges) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/vinayjagannavar/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1675-magnetic-force-between-two-balls](https://github.com/vinayjagannavar/LeetCode/tree/master/1675-magnetic-force-between-two-balls) |
 # Matrix
 |  |
 | ------- |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0633-sum-of-square-numbers](https://github.com/vinayjagannavar/LeetCode/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/vinayjagannavar/LeetCode/tree/master/0853-most-profit-assigning-work) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/vinayjagannavar/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1675-magnetic-force-between-two-balls](https://github.com/vinayjagannavar/LeetCode/tree/master/1675-magnetic-force-between-two-balls) |
 # Greedy
 |  |
 | ------- |
@@ -77,3 +79,4 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0853-most-profit-assigning-work](https://github.com/vinayjagannavar/LeetCode/tree/master/0853-most-profit-assigning-work) |
+| [1675-magnetic-force-between-two-balls](https://github.com/vinayjagannavar/LeetCode/tree/master/1675-magnetic-force-between-two-balls) |
