@@ -22,16 +22,16 @@ class Solution {
     }
 
     private boolean isPossible(int[] position, int m, int mid){
+        int count = 1;
         int prev = position[0];
         for(int i=1; i<position.length; i++){
             if(position[i] - prev >= mid){
-                m--;
+                count++;
                 prev = position[i];
-                if(m==1){
+                if(count==m){
                     return true;
                 }
             }
-
         }
 
         return false;
