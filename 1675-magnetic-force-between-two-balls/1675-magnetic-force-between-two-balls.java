@@ -1,36 +1,33 @@
 class Solution {
     public int maxDistance(int[] position, int m) {
-        int n = position.length;
+         Arrays.sort(position);
 
-        Arrays.sort(position);
-
-        int low = 1;
-        int high = position[n-1] - position[0];
+        int left = 1;
+        int right = position[position.length - 1] - position[0];
         int result = 0;
 
-        while(low <= high){
-            int mid = low + (high - low) / 2;
-            if(isPossible(position, m, mid)){
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (canPlaceBalls(position, m, mid)) {
                 result = mid;
-                low = mid + 1;
-            }
-            else{
-                high = mid - 1;
+                left = mid + 1;
+            } else {
+                right = mid - 1;
             }
         }
 
         return result;
-        
     }
 
-    private boolean isPossible(int[] position, int m, int mid){
+     private static boolean canPlaceBalls(int[] position, int m, int minDist) {
         int count = 1;
-        int prev = position[0];
-        for(int i=1; i<position.length; i++){
-            if(position[i] - prev >= mid){
+        int lastPosition = position[0];
+
+        for (int i = 1; i < position.length; i++) {
+            if (position[i] - lastPosition >= minDist) {
                 count++;
-                prev = position[i];
-                if(count==m){
+                lastPosition = position[i];
+                if (count == m) {
                     return true;
                 }
             }
