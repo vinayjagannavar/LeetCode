@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview!
 # Two Pointers
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/vinayjagannavar/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0633-sum-of-square-numbers](https://github.com/vinayjagannavar/LeetCode/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/vinayjagannavar/LeetCode/tree/master/0853-most-profit-assigning-work) |
 # Binary Search
@@ -85,3 +86,11 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1138-grumpy-bookstore-owner](https://github.com/vinayjagannavar/LeetCode/tree/master/1138-grumpy-bookstore-owner) |
+# String
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/vinayjagannavar/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+# String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/vinayjagannavar/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
