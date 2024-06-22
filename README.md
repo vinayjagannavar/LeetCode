@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0853-most-profit-assigning-work](https://github.com/vinayjagannavar/LeetCode/tree/master/0853-most-profit-assigning-work) |
 | [1036-rotting-oranges](https://github.com/vinayjagannavar/LeetCode/tree/master/1036-rotting-oranges) |
 | [1138-grumpy-bookstore-owner](https://github.com/vinayjagannavar/LeetCode/tree/master/1138-grumpy-bookstore-owner) |
+| [1370-count-number-of-nice-subarrays](https://github.com/vinayjagannavar/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/vinayjagannavar/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1675-magnetic-force-between-two-balls](https://github.com/vinayjagannavar/LeetCode/tree/master/1675-magnetic-force-between-two-balls) |
 # Matrix
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0633-sum-of-square-numbers](https://github.com/vinayjagannavar/LeetCode/tree/master/0633-sum-of-square-numbers) |
+| [1370-count-number-of-nice-subarrays](https://github.com/vinayjagannavar/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 # Two Pointers
 |  |
 | ------- |
@@ -86,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1138-grumpy-bookstore-owner](https://github.com/vinayjagannavar/LeetCode/tree/master/1138-grumpy-bookstore-owner) |
+| [1370-count-number-of-nice-subarrays](https://github.com/vinayjagannavar/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 # String
 |  |
 | ------- |
@@ -94,3 +97,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/vinayjagannavar/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+# Hash Table
+|  |
+| ------- |
+| [1370-count-number-of-nice-subarrays](https://github.com/vinayjagannavar/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
