@@ -55,6 +55,10 @@ class Solution {
         //     count += seen.getOrDefault(sum - goal, 0);
         // }
 
-        // return count;
+        // return count; 
+        
+        // Similar Questions: 
+        //1248. Count Number of Nice Subarrays
+        //560. Subarray Sum Equals K
 
 }
