@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
+| [0560-subarray-sum-equals-k](https://github.com/vinayjagannavar/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0853-most-profit-assigning-work](https://github.com/vinayjagannavar/LeetCode/tree/master/0853-most-profit-assigning-work) |
 | [0966-binary-subarrays-with-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1036-rotting-oranges](https://github.com/vinayjagannavar/LeetCode/tree/master/1036-rotting-oranges) |
@@ -102,9 +103,11 @@ A collection of LeetCode questions to ace the coding interview!
 # Hash Table
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/vinayjagannavar/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/vinayjagannavar/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 # Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/vinayjagannavar/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
