@@ -1,16 +1,18 @@
 class Solution {
     public int numberOfSubarrays(int[] nums, int k) {
-        int n = nums.length;
-        int[] cnt = new int[n + 1];
-        cnt[0] = 1;
-        int ans = 0, t = 0;
-        for (int v : nums) {
-            t += v & 1;
-            if (t - k >= 0) {
-                ans += cnt[t - k];
+        Map<Integer, Integer> map = new HashMap<>();
+        int preSum = 0;
+        int ans = 0;
+        map.put(0,1);
+
+        for(int i=0; i<nums.length; i++){
+            preSum += nums[i] % 2 == 1? 1 : 0;
+            if(map.containsKey(preSum - k)){
+                ans += map.get(preSum - k);
             }
-            cnt[t]++;
+            map.put(preSum,map.getOrDefault(preSum,0)+1);
         }
+
         return ans;
     }
 }
