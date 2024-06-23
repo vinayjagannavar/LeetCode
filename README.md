@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
 | [0853-most-profit-assigning-work](https://github.com/vinayjagannavar/LeetCode/tree/master/0853-most-profit-assigning-work) |
+| [0966-binary-subarrays-with-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1036-rotting-oranges](https://github.com/vinayjagannavar/LeetCode/tree/master/1036-rotting-oranges) |
 | [1138-grumpy-bookstore-owner](https://github.com/vinayjagannavar/LeetCode/tree/master/1138-grumpy-bookstore-owner) |
 | [1370-count-number-of-nice-subarrays](https://github.com/vinayjagannavar/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview!
 # Sliding Window
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1138-grumpy-bookstore-owner](https://github.com/vinayjagannavar/LeetCode/tree/master/1138-grumpy-bookstore-owner) |
 | [1370-count-number-of-nice-subarrays](https://github.com/vinayjagannavar/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 # String
@@ -100,4 +102,9 @@ A collection of LeetCode questions to ace the coding interview!
 # Hash Table
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/vinayjagannavar/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
+# Prefix Sum
+|  |
+| ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
