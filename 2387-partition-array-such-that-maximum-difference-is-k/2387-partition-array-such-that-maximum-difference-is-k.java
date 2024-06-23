@@ -1,19 +1,19 @@
 class Solution {
     public int partitionArray(int[] nums, int k) {
-        Arrays.sort(nums);  
-        int count = 0;      
-        int l = 0;          
+        int count = 0;
 
-        for (int r = 0; r < nums.length; r++) {
-            if (nums[r] - nums[l] > k) {
-                
-                l = r;
+        Arrays.sort(nums);
+        int l = nums[0];
+        int r = 0;
+
+        while(r < nums.length) {
+            if(nums[r] - l > k) {
                 count++;
+                l = nums[r];
             }
-        }
-        
-        count++;
-
+            r++;
+        } 
+        count++;    
         return count;
     }
 }
