@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/vinayjagannavar/LeetCode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/vinayjagannavar/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1675-magnetic-force-between-two-balls](https://github.com/vinayjagannavar/LeetCode/tree/master/1675-magnetic-force-between-two-balls) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/vinayjagannavar/LeetCode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 # Matrix
 |  |
 | ------- |
@@ -83,11 +84,13 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0853-most-profit-assigning-work](https://github.com/vinayjagannavar/LeetCode/tree/master/0853-most-profit-assigning-work) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/vinayjagannavar/LeetCode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 # Sorting
 |  |
 | ------- |
 | [0853-most-profit-assigning-work](https://github.com/vinayjagannavar/LeetCode/tree/master/0853-most-profit-assigning-work) |
 | [1675-magnetic-force-between-two-balls](https://github.com/vinayjagannavar/LeetCode/tree/master/1675-magnetic-force-between-two-balls) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/vinayjagannavar/LeetCode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 # Sliding Window
 |  |
 | ------- |
