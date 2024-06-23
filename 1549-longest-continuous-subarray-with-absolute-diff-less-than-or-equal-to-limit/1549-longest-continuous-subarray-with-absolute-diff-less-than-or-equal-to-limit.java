@@ -1,40 +1,35 @@
 class Solution {
     public int longestSubarray(int[] nums, int limit) {
-        Deque<Integer> minQueue = new LinkedList<>();
-        Deque<Integer> maxQueue = new LinkedList<>();
+        Deque<Integer> maxDeque = new LinkedList<>();
+        Deque<Integer> minDeque = new LinkedList<>();
+        int left = 0, right = 0, result = 0;
+        
+        while (right < nums.length) {
 
-        int len = 0;
-
-        int l = 0;
-        int r = 0;
-
-        while(r<nums.length){
-            while(!maxQueue.isEmpty() && nums[maxQueue.peekLast()] <= nums[r]){
-                maxQueue.pollLast();
+            while (!maxDeque.isEmpty() && nums[maxDeque.peekLast()] <= nums[right]) {
+                maxDeque.pollLast();
             }
-            maxQueue.addLast(r);
-
-            while(!minQueue.isEmpty() && nums[minQueue.peekLast()] >= nums[r]){
-                minQueue.pollLast();
+            while (!minDeque.isEmpty() && nums[minDeque.peekLast()] >= nums[right]) {
+                minDeque.pollLast();
             }
-            minQueue.addLast(r);
-
-            while(nums[maxQueue.peekFirst()] - nums[minQueue.peekFirst()] > limit){
-                l++;
-
-                while(maxQueue.peekFirst() < l){
-                    maxQueue.pollFirst();
+            
+            maxDeque.addLast(right);
+            minDeque.addLast(right);
+            
+            while (nums[maxDeque.peekFirst()] - nums[minDeque.peekFirst()] > limit) {
+                left++;
+                if (maxDeque.peekFirst() < left) {
+                    maxDeque.pollFirst();
                 }
-
-                while(minQueue.peekFirst() < l){
-                    minQueue.pollFirst();
+                if (minDeque.peekFirst() < left) {
+                    minDeque.pollFirst();
                 }
             }
-
-            len = Math.max(len, r-l+1);
-            r++;
+            
+            result = Math.max(result, right - left + 1);
+            right++;
         }
-
-        return len;
+        
+        return result;
     }
 }
