@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/vinayjagannavar/LeetCode/tree/master/0207-course-schedule) |
 | [0820-find-eventual-safe-states](https://github.com/vinayjagannavar/LeetCode/tree/master/0820-find-eventual-safe-states) |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 # Breadth-First Search
 |  |
 | ------- |
@@ -146,3 +147,15 @@ A collection of LeetCode questions to ace the coding interview!
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/vinayjagannavar/LeetCode/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1827-invalid-tweets](https://github.com/vinayjagannavar/LeetCode/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/vinayjagannavar/LeetCode/tree/master/1908-recyclable-and-low-fat-products) |
+# Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Binary Search Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Binary Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
