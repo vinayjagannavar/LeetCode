@@ -137,3 +137,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/vinayjagannavar/LeetCode/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
+# Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/vinayjagannavar/LeetCode/tree/master/1908-recyclable-and-low-fat-products) |
