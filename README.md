@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0207-course-schedule](https://github.com/vinayjagannavar/LeetCode/tree/master/0207-course-schedule) |
 | [0820-find-eventual-safe-states](https://github.com/vinayjagannavar/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
 # Breadth-First Search
 |  |
 | ------- |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0853-most-profit-assigning-work](https://github.com/vinayjagannavar/LeetCode/tree/master/0853-most-profit-assigning-work) |
+| [1285-balance-a-binary-search-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/vinayjagannavar/LeetCode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 # Sorting
 |  |
@@ -153,11 +155,18 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Search Tree
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Tree
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
+# Divide and Conquer
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
