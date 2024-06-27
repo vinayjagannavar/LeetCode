@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0207-course-schedule](https://github.com/vinayjagannavar/LeetCode/tree/master/0207-course-schedule) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vinayjagannavar/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/vinayjagannavar/LeetCode/tree/master/0820-find-eventual-safe-states) |
+| [1916-find-center-of-star-graph](https://github.com/vinayjagannavar/LeetCode/tree/master/1916-find-center-of-star-graph) |
 # Heap (Priority Queue)
 |  |
 | ------- |
