@@ -10,34 +10,50 @@
  */
 class Solution {
     public int[] nodesBetweenCriticalPoints(ListNode head) {
-        ArrayList<Integer> cpoints = new ArrayList<>();
-        ListNode prev = head;
-        head = head.next;
-        int index = 1;
 
-        // Traverse the linked list to find critical points
-        while (head != null && head.next != null) {
-            if ((head.val > prev.val && head.val > head.next.val) || 
-                (head.val < prev.val && head.val < head.next.val)) {
-                cpoints.add(index);
+       ListNode prev=head;
+       head=head.next;
+
+       int first_index=-1;
+       int last_index=-1;
+
+       int index=1;
+       int prev_index=0;
+
+       int min_dist=Integer.MAX_VALUE;
+       int max_dist=Integer.MIN_VALUE;
+
+       while(head.next!=null){
+
+        if(prev.val>head.val && head.val<head.next.val   || prev.val<head.val && head.val>head.next.val){
+
+            if(prev_index==0){
+                first_index=index;
+                prev_index=index;
             }
-            prev = head;
-            head = head.next;
-            index++;
-        }
+            else{
+                if(min_dist>index-prev_index){
+                    min_dist=index-prev_index;
+                }
 
-        // If there are fewer than two critical points, return [-1, -1]
-        if (cpoints.size() < 2) {
-            return new int[]{-1, -1};
-        }
+                prev_index=index;
+            }
 
-        // Calculate minimum and maximum distances between critical points
-        int minDistance = Integer.MAX_VALUE;
-        for (int i = 1; i < cpoints.size(); i++) {
-            minDistance = Math.min(minDistance, cpoints.get(i) - cpoints.get(i - 1));
         }
-        int maxDistance = cpoints.get(cpoints.size() - 1) - cpoints.get(0);
+        index++;
+        prev=head;
+        head=head.next;
+       }
 
-        return new int[]{minDistance, maxDistance};
+       last_index=prev_index;      
+
+       if(min_dist==Integer.MAX_VALUE ){
+         return new int[]{-1,-1};
+       }
+       else{
+        max_dist=last_index-first_index;
+        return new int[]{min_dist,max_dist};
+       }
+
     }
 }
