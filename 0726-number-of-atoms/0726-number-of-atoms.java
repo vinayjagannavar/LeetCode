@@ -1,81 +1,69 @@
-class Solution {
+public class Solution {
+    static class Pair {
+        String element;
+        int count;
+        public Pair(String element, int count) {
+            this.element = element;
+            this.count = count;
+        }
+    }
+
     public String countOfAtoms(String formula) {
-        int n = formula.length(),va=1;
-        TreeMap<String,Integer> map = new TreeMap<>();
-        ArrayList<Integer> list = new ArrayList<Integer>();
-        for(int i=0;i<n;i++){
-            String str="";
-            int v=1;
-            if(Character.isUpperCase(formula.charAt(i))){
-                str+=formula.charAt(i);
-                while((i+1)<n && Character.isLowerCase(formula.charAt(i+1))){
-                    str+=formula.charAt(i+1);
+        Stack<Pair> stack = new Stack<>();
+        Map<String, Integer> map = new TreeMap<>();
+        int i = 0, n = formula.length();
+
+        while (i < n) {
+            if (formula.charAt(i) == '(') {
+                stack.push(new Pair("(", 0));
+                i++;
+            } else if (formula.charAt(i) == ')') {
+                List<Pair> temp = new ArrayList<>();
+                i++;
+                int num = 0;
+                while (i < n && Character.isDigit(formula.charAt(i))) {
+                    num = num * 10 + (formula.charAt(i) - '0');
                     i++;
                 }
-                int sum=0;
-                while((i+1)<n &&Character.isDigit(formula.charAt(i+1))){
-                    int a=Character.getNumericValue(formula.charAt(i+1));
-                    sum = (sum*10)+a;
+                num = (num == 0) ? 1 : num;
+
+                while (!stack.peek().element.equals("(")) {
+                    Pair p = stack.pop();
+                    p.count *= num;
+                    temp.add(p);
+                }
+                stack.pop();  // remove the "("
+                for (Pair p : temp) {
+                    stack.push(p);
+                }
+            } else {
+                int start = i++;
+                while (i < n && Character.isLowerCase(formula.charAt(i))) i++;
+                String element = formula.substring(start, i);
+
+                int num = 0;
+                while (i < n && Character.isDigit(formula.charAt(i))) {
+                    num = num * 10 + (formula.charAt(i) - '0');
                     i++;
                 }
-                if(sum>0){
-                    v=sum;
-                }
-                if(va>0){
-                    v*=va;
-                }
-                if(map.isEmpty() || !map.containsKey(str)){
-                    map.put(str,v);
-                }
-                else{
-                    map.put(str,map.get(str)+v);
-                }
-            }
-            else if(formula.charAt(i)=='('){
-                int x = help(formula,i+1);
-                if(x==0){
-                    x=1;
-                }
-                va*=x;
-                list.add(x);
-            }
-            else if(formula.charAt(i)==')'){
-                va/=(list.get(list.size()-1));
-                list.remove(list.size()-1);
+                num = (num == 0) ? 1 : num;
+
+                stack.push(new Pair(element, num));
             }
         }
 
-        String res = "";
-        for (Map.Entry<String, Integer> entry:map.entrySet()) {
-            if(entry.getValue()==1){
-                res+=entry.getKey();
-            }
-            else{
-                res+=(entry.getKey()+entry.getValue());
+        while (!stack.isEmpty()) {
+            Pair p = stack.pop();
+            map.put(p.element, map.getOrDefault(p.element, 0) + p.count);
+        }
+
+        StringBuilder result = new StringBuilder();
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            result.append(entry.getKey());
+            if (entry.getValue() > 1) {
+                result.append(entry.getValue());
             }
         }
-        return res;
-    }
-    public int help(String formula,int st){
-        int sum=0,c=0;
-        for(int i=st;i<formula.length();i++){
-            if(formula.charAt(i)=='('){
-                c++;
-            }
-            else if(formula.charAt(i)==')'){
-                if(c==0){
-                    while(i+1<formula.length() && Character.isDigit(formula.charAt(i+1))){
-                        int a = Character.getNumericValue(formula.charAt(i+1));
-                        sum=(sum*10)+a;
-                        i++;
-                    }
-                    break;
-                }
-                else{
-                    c--;
-                }
-            }
-        }
-        return sum;
+        return result.toString();
     }
 }
