@@ -1,97 +1,40 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
+    static byte[] path = new byte[200_001];
+    int strtLevel = -1; 
+    int destLevel = -1;
+    int comnLevel = -1;
+    
     public String getDirections(TreeNode root, int startValue, int destValue) {
-        Queue<TreeNode> q = new LinkedList<>();
-        q.offer(root);
-        TreeNode startNode = null;
-
-        while (!q.isEmpty()) {
-            TreeNode curNode = q.poll();
-
-            if (curNode.val == startValue) {
-                startNode = curNode;
-                break;
-            }
-
-            if (curNode.left != null) {
-                q.offer(curNode.left);
-            }
-            if (curNode.right != null) {
-                q.offer(curNode.right);
+        findPaths(root, startValue, destValue, 100_000);
+        int answerIdx = comnLevel;
+        for (int i = strtLevel; i > comnLevel; i--)  
+            path[--answerIdx] = 'U';
+        return new String(path, answerIdx, destLevel - answerIdx);
+    }
+    
+    private int findPaths(TreeNode node, int strtVal, int destVal, int level) {
+        if (node == null)  return 0;
+        int result = 0;
+        if (node.val == strtVal) {
+            strtLevel = level;
+            result = 1;
+        } else if (node.val == destVal) {
+            destLevel = level;
+            result = 1;
+        }
+        int leftFound = 0;
+        int rightFound = 0;
+        if (comnLevel < 0) {
+            if (destLevel < 0)  path[level] = 'L';
+            leftFound = findPaths(node.left, strtVal, destVal, level + 1);
+            rightFound = 0;
+            if (comnLevel < 0) {
+                if (destLevel < 0)  path[level] = 'R';
+                rightFound = findPaths(node.right, strtVal, destVal, level + 1);
             }
         }
-
-        Map<Integer, TreeNode> nodesParents = new HashMap<>();
-        q.offer(root);
-
-        while (!q.isEmpty()) {
-            TreeNode curNode = q.poll();
-
-            if (curNode.left != null) {
-                nodesParents.put(curNode.left.val, curNode);
-                q.offer(curNode.left);
-            }
-            if (curNode.right != null) {
-                nodesParents.put(curNode.right.val, curNode);
-                q.offer(curNode.right);
-            }
-        }
-
-        Set<TreeNode> visited = new HashSet<>();
-        q.offer(startNode);
-        Map<TreeNode, Pair<TreeNode, String>> trackedPath = new HashMap<>();
-        TreeNode destinationNode = null;
-
-        while (!q.isEmpty()) {
-            TreeNode curNode = q.poll();
-            visited.add(curNode);
-
-            if (curNode.val == destValue) {
-                destinationNode = curNode;
-                break;
-            }
-
-            if (nodesParents.containsKey(curNode.val) && !visited.contains(nodesParents.get(curNode.val))) {
-                TreeNode parent = nodesParents.get(curNode.val);
-                q.offer(parent);
-                trackedPath.put(parent, new Pair<>(curNode, "U"));
-            }
-
-            if (curNode.left != null && !visited.contains(curNode.left)) {
-                q.offer(curNode.left);
-                trackedPath.put(curNode.left, new Pair<>(curNode, "L"));
-            }
-
-            if (curNode.right != null && !visited.contains(curNode.right)) {
-                q.offer(curNode.right);
-                trackedPath.put(curNode.right, new Pair<>(curNode, "R"));
-            }
-        }
-
-        List<String> resultPath = new ArrayList<>();
-        TreeNode curNode = destinationNode;
-
-        while (curNode != startNode) {
-            Pair<TreeNode, String> sourceAndDirection = trackedPath.get(curNode);
-            resultPath.add(sourceAndDirection.getValue());
-            curNode = sourceAndDirection.getKey();
-        }
-
-        Collections.reverse(resultPath);
-        return String.join("", resultPath);
+        if (comnLevel < 0 && leftFound + rightFound + result == 2) 
+            comnLevel = level;
+        return result | leftFound | rightFound;
     }
 }
