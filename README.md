@@ -302,4 +302,8 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/vinayjagannavar/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/vinayjagannavar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0476-number-complement](https://github.com/vinayjagannavar/LeetCode/tree/master/0476-number-complement) |
 <!---LeetCode Topics End-->
