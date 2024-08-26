@@ -18,17 +18,17 @@ class Node {
 */
 
 class Solution {
-    List<Integer> output = new ArrayList<>();
 
     public List<Integer> postorder(Node root) {
+        List<Integer> output = new ArrayList<>();
         if(root==null){
             return output;
         }
-        dfs(root);
+        dfs(root, output);
         return output;
     }
 
-    private void dfs(Node root){
+    private void dfs(Node root, List<Integer> output){
 
         if(root.children.size()==0){
             output.add(root.val);
@@ -36,7 +36,7 @@ class Solution {
         }
 
         for(Node child : root.children){
-            dfs(child);
+            dfs(child,output);
         }
 
         output.add(root.val);
