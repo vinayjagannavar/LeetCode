@@ -188,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/vinayjagannavar/LeetCode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/vinayjagannavar/LeetCode/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [2379-maximum-total-importance-of-roads](https://github.com/vinayjagannavar/LeetCode/tree/master/2379-maximum-total-importance-of-roads) |
+| [2803-modify-graph-edge-weights](https://github.com/vinayjagannavar/LeetCode/tree/master/2803-modify-graph-edge-weights) |
 ## Sorting
 |  |
 | ------- |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [1325-path-with-maximum-probability](https://github.com/vinayjagannavar/LeetCode/tree/master/1325-path-with-maximum-probability) |
 | [2379-maximum-total-importance-of-roads](https://github.com/vinayjagannavar/LeetCode/tree/master/2379-maximum-total-importance-of-roads) |
+| [2803-modify-graph-edge-weights](https://github.com/vinayjagannavar/LeetCode/tree/master/2803-modify-graph-edge-weights) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -327,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1325-path-with-maximum-probability](https://github.com/vinayjagannavar/LeetCode/tree/master/1325-path-with-maximum-probability) |
+| [2803-modify-graph-edge-weights](https://github.com/vinayjagannavar/LeetCode/tree/master/2803-modify-graph-edge-weights) |
 ## Matrix
 |  |
 | ------- |
