@@ -240,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1720-crawler-log-folder](https://github.com/vinayjagannavar/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/vinayjagannavar/LeetCode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/vinayjagannavar/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/vinayjagannavar/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/2035-count-sub-islands) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/vinayjagannavar/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/vinayjagannavar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -266,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vinayjagannavar/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/vinayjagannavar/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Linked List
 |  |
 | ------- |
@@ -277,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1642-water-bottles](https://github.com/vinayjagannavar/LeetCode/tree/master/1642-water-bottles) |
 | [1803-average-waiting-time](https://github.com/vinayjagannavar/LeetCode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/vinayjagannavar/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/vinayjagannavar/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/vinayjagannavar/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/vinayjagannavar/LeetCode/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/vinayjagannavar/LeetCode/tree/master/2645-pass-the-pillow) |
@@ -353,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0303-range-sum-query-immutable](https://github.com/vinayjagannavar/LeetCode/tree/master/0303-range-sum-query-immutable) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/vinayjagannavar/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Sliding Window
 |  |
 | ------- |
