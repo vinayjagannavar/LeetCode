@@ -177,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/vinayjagannavar/LeetCode/tree/master/0011-container-with-most-water) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/vinayjagannavar/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/vinayjagannavar/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/vinayjagannavar/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2379-maximum-total-importance-of-roads](https://github.com/vinayjagannavar/LeetCode/tree/master/2379-maximum-total-importance-of-roads) |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0056-merge-intervals](https://github.com/vinayjagannavar/LeetCode/tree/master/0056-merge-intervals) |
 | [0242-valid-anagram](https://github.com/vinayjagannavar/LeetCode/tree/master/0242-valid-anagram) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/vinayjagannavar/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0726-number-of-atoms](https://github.com/vinayjagannavar/LeetCode/tree/master/0726-number-of-atoms) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/vinayjagannavar/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2379-maximum-total-importance-of-roads](https://github.com/vinayjagannavar/LeetCode/tree/master/2379-maximum-total-importance-of-roads) |
@@ -243,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0219-contains-duplicate-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0303-range-sum-query-immutable](https://github.com/vinayjagannavar/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/vinayjagannavar/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0906-walking-robot-simulation](https://github.com/vinayjagannavar/LeetCode/tree/master/0906-walking-robot-simulation) |
 | [1293-three-consecutive-odds](https://github.com/vinayjagannavar/LeetCode/tree/master/1293-three-consecutive-odds) |
 | [1325-path-with-maximum-probability](https://github.com/vinayjagannavar/LeetCode/tree/master/1325-path-with-maximum-probability) |
