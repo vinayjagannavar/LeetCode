@@ -193,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/vinayjagannavar/LeetCode/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/vinayjagannavar/LeetCode/tree/master/0056-merge-intervals) |
 | [0242-valid-anagram](https://github.com/vinayjagannavar/LeetCode/tree/master/0242-valid-anagram) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/vinayjagannavar/LeetCode/tree/master/0726-number-of-atoms) |
@@ -234,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0011-container-with-most-water](https://github.com/vinayjagannavar/LeetCode/tree/master/0011-container-with-most-water) |
 | [0049-group-anagrams](https://github.com/vinayjagannavar/LeetCode/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/vinayjagannavar/LeetCode/tree/master/0056-merge-intervals) |
 | [0128-longest-consecutive-sequence](https://github.com/vinayjagannavar/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vinayjagannavar/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
