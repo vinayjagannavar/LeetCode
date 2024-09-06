@@ -334,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vinayjagannavar/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0020-valid-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/vinayjagannavar/LeetCode/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/vinayjagannavar/LeetCode/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/vinayjagannavar/LeetCode/tree/master/0205-isomorphic-strings) |
@@ -350,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0020-valid-parentheses) |
 | [0726-number-of-atoms](https://github.com/vinayjagannavar/LeetCode/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
