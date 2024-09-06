@@ -11,29 +11,21 @@
 class Solution {
     public ListNode modifiedList(int[] nums, ListNode head) {
 
-        Set<Integer> numSet = new HashSet<>();
-        for (int num : nums) {
-            numSet.add(num);
+        Set<Integer> values = new HashSet<Integer>();
+        for(int i : nums){
+            values.add(i);
         }
 
-        while (head != null && numSet.contains(head.val)) {
-            head = head.next;
-        }
-
-        if (head == null) {
-            return null;
-        }
-
-        ListNode current = head;
-
-        while (current != null && current.next != null) {
-            if (numSet.contains(current.next.val)) {
-                current.next = current.next.next;
-            } else {                
-                current = current.next;
+        ListNode temp = new ListNode(0, head);
+        ListNode p = temp;
+        while(temp.next != null){
+            if(values.contains(temp.next.val)){
+                temp.next = temp.next.next;
+            }
+            else{
+                temp = temp.next;
             }
         }
-
-        return head;
+        return p.next;
     }
 }
