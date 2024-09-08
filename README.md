@@ -299,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/vinayjagannavar/LeetCode/tree/master/0002-add-two-numbers) |
 | [0725-split-linked-list-in-parts](https://github.com/vinayjagannavar/LeetCode/tree/master/0725-split-linked-list-in-parts) |
 | [1484-linked-list-in-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/vinayjagannavar/LeetCode/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/vinayjagannavar/LeetCode/tree/master/0002-add-two-numbers) |
 | [0202-happy-number](https://github.com/vinayjagannavar/LeetCode/tree/master/0202-happy-number) |
 | [1642-water-bottles](https://github.com/vinayjagannavar/LeetCode/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/vinayjagannavar/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -329,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/vinayjagannavar/LeetCode/tree/master/0002-add-two-numbers) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/vinayjagannavar/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
