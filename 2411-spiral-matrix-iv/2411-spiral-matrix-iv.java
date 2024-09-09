@@ -12,7 +12,7 @@ class Solution {
     public int[][] spiralMatrix(int m, int n, ListNode head) {
         int[][] output = new int[m][n];
         for (int i = 0; i < m; i++) {
-            Arrays.fill(output[i], 2000);
+            Arrays.fill(output[i], -1);
         }
 
         int[][] directions = {{0,1}, {1,0}, {0,-1}, {-1,0}};
@@ -30,7 +30,7 @@ class Solution {
             int newX = x + directions[dir][0];
             int newY = y + directions[dir][1];
 
-            if (newX < 0 || newX >= m || newY < 0 || newY >= n || output[newX][newY] != 2000) {
+            if (newX < 0 || newX >= m || newY < 0 || newY >= n || output[newX][newY] != -1) {
                 // Change direction clockwise (right -> down -> left -> up)
                 dir = (dir + 1) % 4;
                 newX = x + directions[dir][0];
@@ -41,13 +41,7 @@ class Solution {
             y = newY;            
         }
 
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (output[i][j] == 2000) {
-                    output[i][j] = -1;
-                }
-            }
-        }
+        
 
         return output;
     }
