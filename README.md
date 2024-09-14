@@ -272,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0003-longest-substring-without-repeating-characters](https://github.com/vinayjagannavar/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/vinayjagannavar/LeetCode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/vinayjagannavar/LeetCode/tree/master/0128-longest-consecutive-sequence) |
+| [0146-lru-cache](https://github.com/vinayjagannavar/LeetCode/tree/master/0146-lru-cache) |
 | [0202-happy-number](https://github.com/vinayjagannavar/LeetCode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/vinayjagannavar/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0219-contains-duplicate-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0219-contains-duplicate-ii) |
@@ -312,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0086-partition-list](https://github.com/vinayjagannavar/LeetCode/tree/master/0086-partition-list) |
 | [0092-reverse-linked-list-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0092-reverse-linked-list-ii) |
+| [0146-lru-cache](https://github.com/vinayjagannavar/LeetCode/tree/master/0146-lru-cache) |
 | [0725-split-linked-list-in-parts](https://github.com/vinayjagannavar/LeetCode/tree/master/0725-split-linked-list-in-parts) |
 | [1484-linked-list-in-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/vinayjagannavar/LeetCode/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
@@ -424,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/vinayjagannavar/LeetCode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/vinayjagannavar/LeetCode/tree/master/0155-min-stack) |
 | [0303-range-sum-query-immutable](https://github.com/vinayjagannavar/LeetCode/tree/master/0303-range-sum-query-immutable) |
 ## Prefix Sum
@@ -452,4 +455,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/vinayjagannavar/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/vinayjagannavar/LeetCode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
