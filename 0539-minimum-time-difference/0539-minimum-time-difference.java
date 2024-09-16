@@ -1,25 +1,37 @@
 class Solution {
     public int findMinDifference(List<String> timePoints) {
-        int[] timeInMinutes = new int[timePoints.size()];
-        for(int i=0; i<timePoints.size(); i++){
-            int hoursToMin = Integer.parseInt(timePoints.get(i).substring(0,2))*60 + Integer.parseInt(timePoints.get(i).substring(3,5));
-            timeInMinutes[i] = hoursToMin;
-        }
+        
+        int min = Integer.MAX_VALUE;
+        boolean[] a = new boolean[1441];
 
-        Arrays.sort(timeInMinutes);
-
-        int minDiff = Integer.MAX_VALUE;
-
-        for(int i=1; i<timeInMinutes.length; i++){
-            if(timeInMinutes[i] - timeInMinutes[i-1] == 0){
-                return 0;
+        for (String time : timePoints) {
+            String[] t = time.split(":");
+            int hr = Integer.parseInt(t[0]);
+            int mins = Integer.parseInt(t[1]);
+            int timeInMin = 60 * hr + mins;
+            if(a[timeInMin]){
+                return 0; //00:00 repeats
             }
-
-            minDiff= Math.min(minDiff, timeInMinutes[i] - timeInMinutes[i-1]);
+            a[timeInMin] = true;
         }
 
-        int firstLastDiff = 1440 - timeInMinutes[timeInMinutes.length - 1] + timeInMinutes[0];
-        minDiff = Math.min(minDiff, firstLastDiff);
-        return minDiff;
+        int first = -1;
+        int prev = -1;
+        int curr = -1;
+
+        for (int i = 0; i < a.length; i++) {
+            if (a[i]) {
+                if (curr == -1) {
+                    first = i;
+                    curr = i;
+                } else {
+                    prev = curr;
+                    curr = i;
+                    min = Math.min(min, curr - prev);
+                }
+            }
+        }
+
+        return Math.min(min, 1440 - curr + first);
     }
 }
