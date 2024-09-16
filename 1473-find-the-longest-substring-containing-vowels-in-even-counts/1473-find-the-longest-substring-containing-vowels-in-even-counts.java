@@ -1,40 +1,41 @@
-
 class Solution {
     public int findTheLongestSubstring(String s) {
-        // Vowels with their respective bitmask values
-        Map<Character, Integer> vowels = new HashMap<>();
-        vowels.put('a', 1);
-        vowels.put('e', 2);
-        vowels.put('i', 4);
-        vowels.put('o', 8);
-        vowels.put('u', 16);
-        
-        // Map to store the first occurrence of each bitmask
-        // Start with bitmask 0 at index -1, for cases where the entire string is valid
-        Map<Integer, Integer> firstOccurrence = new HashMap<>();
-        firstOccurrence.put(0, -1);
-        
-        int mask = 0; // Current bitmask
-        int maxLength = 0; // Result variable to store the maximum length
-        
-        // Traverse the string
+        int[] mapy = new int[32];
+        Arrays.fill(mapy, -2);
+        mapy[0] = -1;
+
+        int maxLen = 0;
+        int mask = 0;
+
         for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            
-            // If the character is a vowel, update the bitmask
-            if (vowels.containsKey(c)) {
-                mask ^= vowels.get(c);
+            char ch = s.charAt(i);
+
+            switch (ch) {
+                case 'a':
+                    mask ^= 1;
+                    break;
+                case 'e':
+                    mask ^= 2;
+                    break;
+                case 'i':
+                    mask ^= 4;
+                    break;
+                case 'o':
+                    mask ^= 8;
+                    break;
+                case 'u':
+                    mask ^= 16;
+                    break;
             }
-            
-            // If the bitmask has been seen before, calculate the length of the substring
-            if (firstOccurrence.containsKey(mask)) {
-                maxLength = Math.max(maxLength, i - firstOccurrence.get(mask));
+
+            int prev = mapy[mask];
+            if (prev == -2) {
+                mapy[mask] = i;
             } else {
-                // If this is the first time we've seen this bitmask, store the index
-                firstOccurrence.put(mask, i);
+                maxLen = Math.max(maxLen, i - prev);
             }
         }
-        
-        return maxLength;
+
+        return maxLen;
     }
 }
