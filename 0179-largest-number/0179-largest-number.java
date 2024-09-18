@@ -9,8 +9,8 @@ class Solution {
         Arrays.sort(numString, (a,b) -> (b+a).compareTo(a+b));
 
         StringBuilder sb = new StringBuilder();
-        for(String s:numString){
-            sb.append(s);
+        for(int i=0;i<nums.length;i++){
+            sb.append(numString[i]);
         }
 
         return sb.charAt(0) == '0' ? "0" : sb.toString();
