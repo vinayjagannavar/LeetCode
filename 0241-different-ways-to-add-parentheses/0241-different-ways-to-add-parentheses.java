@@ -1,35 +1,35 @@
 class Solution {
+    Map<String, List<Integer>> map = new HashMap<>();
     public List<Integer> diffWaysToCompute(String expression) {
+        if(map.containsKey(expression)){
+            return map.get(expression);
+        }
         List<Integer> result = new ArrayList<>();
-
         for(int i=0; i<expression.length(); i++){
-            char curr = expression.charAt(i);
-
-            if(curr == '*' || curr == '+' || curr == '-'){
+            char ch = expression.charAt(i);
+            if(ch=='*' || ch == '+' ||ch=='-'){
                 List<Integer> left = diffWaysToCompute(expression.substring(0,i));
-
                 List<Integer> right = diffWaysToCompute(expression.substring(i+1));
 
-                for(int x : left){
-                    for(int y : right){
-                        if(curr == '*'){
-                            result.add(x*y);
-                        }
-                        else if(curr == '-'){
-                            result.add(x-y);
-                        }
-                        else if(curr == '+'){
-                            result.add(x+y);
+                for (int l : left) {
+                    for (int r : right) {
+                        if (ch == '+') {
+                            result.add(l + r);
+                        } else if (ch == '-') {
+                            result.add(l - r);
+                        } else if (ch == '*') {
+                            result.add(l * r);
                         }
                     }
                 }
             }
         }
-
-        if(result.size()==0){
+        if (result.isEmpty()) {
             result.add(Integer.parseInt(expression));
         }
+        map.put(expression, result);
 
         return result;
+        
     }
 }
