@@ -1,45 +1,37 @@
-class Solution {
+public class Solution {
+    static boolean[][] visited;
     public boolean exist(char[][] board, String word) {
-        int n = board.length;
-        int m = board[0].length;
-
-        boolean[][] visited = new boolean[n][m];
-
-        for(int i=0; i<n; i++){
-            for(int j=0; j<m; j++){
-                if(board[i][j] == word.charAt(0)){
-                    if(dfs(board, word, visited, i, j, 0)){
-                        return true;
-                    }
+        visited = new boolean[board.length][board[0].length];
+        
+        for(int i = 0; i < board.length; i++){
+            for(int j = 0; j < board[i].length; j++){
+                if((word.charAt(0) == board[i][j]) && search(board, word, i, j, 0)){
+                    return true;
                 }
             }
         }
-
-        return false;
         
+        return false;
     }
-
-    private boolean dfs(char[][] board, String word, boolean[][] visited, int row, int col, int index){
-
+    
+    private boolean search(char[][]board, String word, int i, int j, int index){
         if(index == word.length()){
             return true;
         }
         
-        if(row<0 || row >= board.length || col<0 || col >= board[0].length || visited[row][col] ||board[row][col] != word.charAt(index)){
+        if(i >= board.length || i < 0 || j >= board[i].length || j < 0 || board[i][j] != word.charAt(index) || visited[i][j]){
             return false;
         }
-
-        visited[row][col] = true;
-
-        if(dfs(board, word, visited, row+1, col, index+1) ||
-        dfs(board, word, visited, row, col+1, index+1) ||
-        dfs(board, word, visited, row-1, col, index+1) ||
-        dfs(board, word, visited, row, col-1, index+1)){
+        
+        visited[i][j] = true;
+        if(search(board, word, i-1, j, index+1) || 
+           search(board, word, i+1, j, index+1) ||
+           search(board, word, i, j-1, index+1) || 
+           search(board, word, i, j+1, index+1)){
             return true;
         }
-
-        visited[row][col] = false;
-
+        
+        visited[i][j] = false;
         return false;
     }
 }
