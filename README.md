@@ -391,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0125-valid-palindrome](https://github.com/vinayjagannavar/LeetCode/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/vinayjagannavar/LeetCode/tree/master/0179-largest-number) |
 | [0205-isomorphic-strings](https://github.com/vinayjagannavar/LeetCode/tree/master/0205-isomorphic-strings) |
+| [0214-shortest-palindrome](https://github.com/vinayjagannavar/LeetCode/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0242-valid-anagram](https://github.com/vinayjagannavar/LeetCode/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/vinayjagannavar/LeetCode/tree/master/0290-word-pattern) |
@@ -523,4 +524,16 @@ A collection of LeetCode questions to ace the coding interview!
 | [0046-permutations](https://github.com/vinayjagannavar/LeetCode/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/vinayjagannavar/LeetCode/tree/master/0077-combinations) |
 | [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
+## Rolling Hash
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/vinayjagannavar/LeetCode/tree/master/0214-shortest-palindrome) |
+## String Matching
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/vinayjagannavar/LeetCode/tree/master/0214-shortest-palindrome) |
+## Hash Function
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/vinayjagannavar/LeetCode/tree/master/0214-shortest-palindrome) |
 <!---LeetCode Topics End-->
