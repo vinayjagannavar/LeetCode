@@ -251,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0049-group-anagrams](https://github.com/vinayjagannavar/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/vinayjagannavar/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/vinayjagannavar/LeetCode/tree/master/0057-insert-interval) |
+| [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/vinayjagannavar/LeetCode/tree/master/0128-longest-consecutive-sequence) |
@@ -385,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0020-valid-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/vinayjagannavar/LeetCode/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/vinayjagannavar/LeetCode/tree/master/0071-simplify-path) |
+| [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/vinayjagannavar/LeetCode/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/vinayjagannavar/LeetCode/tree/master/0179-largest-number) |
 | [0205-isomorphic-strings](https://github.com/vinayjagannavar/LeetCode/tree/master/0205-isomorphic-strings) |
@@ -460,6 +462,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
 | [2035-count-sub-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/2035-count-sub-islands) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/vinayjagannavar/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2411-spiral-matrix-iv](https://github.com/vinayjagannavar/LeetCode/tree/master/2411-spiral-matrix-iv) |
@@ -516,4 +519,5 @@ A collection of LeetCode questions to ace the coding interview!
 | [0017-letter-combinations-of-a-phone-number](https://github.com/vinayjagannavar/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0046-permutations](https://github.com/vinayjagannavar/LeetCode/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/vinayjagannavar/LeetCode/tree/master/0077-combinations) |
+| [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
