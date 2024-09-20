@@ -384,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0003-longest-substring-without-repeating-characters](https://github.com/vinayjagannavar/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/vinayjagannavar/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/vinayjagannavar/LeetCode/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/vinayjagannavar/LeetCode/tree/master/0071-simplify-path) |
 | [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
@@ -420,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0022-generate-parentheses) |
 | [0241-different-ways-to-add-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0392-is-subsequence](https://github.com/vinayjagannavar/LeetCode/tree/master/0392-is-subsequence) |
 ## Tree
@@ -517,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/vinayjagannavar/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/vinayjagannavar/LeetCode/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/vinayjagannavar/LeetCode/tree/master/0077-combinations) |
 | [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
