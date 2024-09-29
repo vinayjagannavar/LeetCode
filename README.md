@@ -214,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Depth-First Search
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0226-invert-binary-tree) |
@@ -450,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0101-symmetric-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -464,6 +466,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0101-symmetric-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -591,6 +594,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Binary Search Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/vinayjagannavar/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/vinayjagannavar/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 <!---LeetCode Topics End-->
