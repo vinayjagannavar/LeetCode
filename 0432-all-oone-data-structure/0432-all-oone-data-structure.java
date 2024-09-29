@@ -1,0 +1,53 @@
+class AllOne {
+
+    private Map<String, Integer> count;
+    private TreeSet<Pair<Integer,String>> set;
+
+    public AllOne() {
+        count = new HashMap<>();
+        set = new TreeSet<>((a,b) -> {
+            int keyComparison = b.getKey().compareTo(a.getKey());
+            if(keyComparison != 0){
+                return keyComparison;
+            }
+
+            return b.getValue().compareTo(a.getValue());
+        });
+    }
+    
+    public void inc(String key) {
+        int n = count.getOrDefault(key, 0);
+        count.put(key,n+1);
+        set.remove(new Pair<>(n,key));
+        set.add(new Pair<>(n+1,key));
+    }
+    
+    public void dec(String key) {
+        int n = count.get(key);
+        set.remove(new Pair<>(n,key));
+        if(n==1){
+            count.remove(key);
+        }
+        else{
+            count.put(key,n-1);
+            set.add(new Pair<>(n-1,key));
+        }
+    }
+    
+    public String getMaxKey() {
+        return set.isEmpty()? "" : set.first().getValue();
+    }
+    
+    public String getMinKey() {
+        return set.isEmpty()? "" : set.last().getValue();
+    }
+}
+
+/**
+ * Your AllOne object will be instantiated and called as such:
+ * AllOne obj = new AllOne();
+ * obj.inc(key);
+ * obj.dec(key);
+ * String param_3 = obj.getMaxKey();
+ * String param_4 = obj.getMinKey();
+ */
