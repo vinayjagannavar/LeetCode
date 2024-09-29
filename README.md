@@ -305,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0290-word-pattern](https://github.com/vinayjagannavar/LeetCode/tree/master/0290-word-pattern) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0383-ransom-note](https://github.com/vinayjagannavar/LeetCode/tree/master/0383-ransom-note) |
+| [0432-all-oone-data-structure](https://github.com/vinayjagannavar/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0726-number-of-atoms](https://github.com/vinayjagannavar/LeetCode/tree/master/0726-number-of-atoms) |
 | [0906-walking-robot-simulation](https://github.com/vinayjagannavar/LeetCode/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/vinayjagannavar/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -345,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0086-partition-list](https://github.com/vinayjagannavar/LeetCode/tree/master/0086-partition-list) |
 | [0092-reverse-linked-list-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0092-reverse-linked-list-ii) |
 | [0146-lru-cache](https://github.com/vinayjagannavar/LeetCode/tree/master/0146-lru-cache) |
+| [0432-all-oone-data-structure](https://github.com/vinayjagannavar/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/vinayjagannavar/LeetCode/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/vinayjagannavar/LeetCode/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
@@ -492,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0146-lru-cache](https://github.com/vinayjagannavar/LeetCode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/vinayjagannavar/LeetCode/tree/master/0155-min-stack) |
 | [0303-range-sum-query-immutable](https://github.com/vinayjagannavar/LeetCode/tree/master/0303-range-sum-query-immutable) |
+| [0432-all-oone-data-structure](https://github.com/vinayjagannavar/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/vinayjagannavar/LeetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0731-my-calendar-ii) |
 | [0859-design-circular-deque](https://github.com/vinayjagannavar/LeetCode/tree/master/0859-design-circular-deque) |
@@ -529,6 +532,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/vinayjagannavar/LeetCode/tree/master/0146-lru-cache) |
+| [0432-all-oone-data-structure](https://github.com/vinayjagannavar/LeetCode/tree/master/0432-all-oone-data-structure) |
 ## Divide and Conquer
 |  |
 | ------- |
