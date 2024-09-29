@@ -218,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0101-symmetric-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/vinayjagannavar/LeetCode/tree/master/0386-lexicographical-numbers) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/vinayjagannavar/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/vinayjagannavar/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/vinayjagannavar/LeetCode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0100-same-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/vinayjagannavar/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/vinayjagannavar/LeetCode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1484-linked-list-in-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/2035-count-sub-islands) |
@@ -452,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/vinayjagannavar/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1484-linked-list-in-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/vinayjagannavar/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -464,6 +467,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/vinayjagannavar/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [1484-linked-list-in-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/vinayjagannavar/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/vinayjagannavar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -581,4 +585,8 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0729-my-calendar-i](https://github.com/vinayjagannavar/LeetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0731-my-calendar-ii) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/vinayjagannavar/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 <!---LeetCode Topics End-->
