@@ -1,31 +1,79 @@
 class CustomStack {
-    private int n;
-    private Stack<Integer> stack;
-    private List<Integer> inc;
 
-    public CustomStack(int n) {
-        this.n = n;
-        this.stack = new Stack<>();
-        this.inc = new ArrayList<>();
-    }
+    class ListNode{
+        int val;
+        ListNode next;
 
-    public void push(int x) {
-        if (stack.size() < n) {
-            stack.push(x);
-            inc.add(0);
+        public ListNode(int val){
+            this.val = val;
         }
     }
 
-    public int pop() {
-        if (stack.isEmpty()) return -1;
-        if (inc.size() > 1) inc.set(inc.size() - 2, inc.get(inc.size() - 2) + inc.get(inc.size() - 1));
-        return stack.pop() + inc.remove(inc.size() - 1);
+    private ListNode head;
+    int maxSize;
+    int size = 0;
+    public CustomStack(int maxSize) {
+        this.maxSize = maxSize;
+        head = new ListNode(-1);
     }
+    
+    public void push(int x) {
+        if(size < maxSize){
+            ListNode node = new ListNode(x);
+            if(head.next == null){
+                head.next = node;
+            }
+            else{
+                node.next = head.next;
+                head.next = node;
+            }
+            size++;
+        }
 
+        return;
+    }
+    
+    public int pop() {
+        if(size>0){
+            ListNode node = head.next;
+            head.next = head.next.next;
+            node.next = null;
+            size--;
+            return node.val;
+        }
+        
+        return -1;
+    }
+    
     public void increment(int k, int val) {
-        if (!stack.isEmpty()) {
-            int index = Math.min(k, inc.size()) - 1;
-            inc.set(index, inc.get(index) + val);
+        if(k>=size){
+            ListNode current = head.next;
+            while(current != null){
+                current.val = val+current.val;
+                current = current.next;
+            }
+        }
+        else{
+            int skip = size - k;
+            ListNode current = head.next;
+            while(skip != 0){
+                current = current.next;
+                skip--;
+            }
+
+            while(current != null){
+                current.val = val+current.val;
+                current = current.next;
+            }
+
         }
     }
 }
+
+/**
+ * Your CustomStack object will be instantiated and called as such:
+ * CustomStack obj = new CustomStack(maxSize);
+ * obj.push(x);
+ * int param_2 = obj.pop();
+ * obj.increment(k,val);
+ */
