@@ -285,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1720-crawler-log-folder](https://github.com/vinayjagannavar/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/vinayjagannavar/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/vinayjagannavar/LeetCode/tree/master/1803-average-waiting-time) |
+| [1923-sentence-similarity-iii](https://github.com/vinayjagannavar/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/vinayjagannavar/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/vinayjagannavar/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/2035-count-sub-islands) |
@@ -345,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0350-intersection-of-two-arrays-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0392-is-subsequence](https://github.com/vinayjagannavar/LeetCode/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/vinayjagannavar/LeetCode/tree/master/0567-permutation-in-string) |
+| [1923-sentence-similarity-iii](https://github.com/vinayjagannavar/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/vinayjagannavar/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Binary Search
 |  |
@@ -439,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1720-crawler-log-folder](https://github.com/vinayjagannavar/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/vinayjagannavar/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/vinayjagannavar/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1923-sentence-similarity-iii](https://github.com/vinayjagannavar/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/vinayjagannavar/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/vinayjagannavar/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/vinayjagannavar/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
