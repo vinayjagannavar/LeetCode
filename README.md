@@ -399,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/vinayjagannavar/LeetCode/tree/master/0002-add-two-numbers) |
+| [0070-climbing-stairs](https://github.com/vinayjagannavar/LeetCode/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/vinayjagannavar/LeetCode/tree/master/0202-happy-number) |
 | [0241-different-ways-to-add-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0539-minimum-time-difference](https://github.com/vinayjagannavar/LeetCode/tree/master/0539-minimum-time-difference) |
@@ -476,6 +477,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0022-generate-parentheses) |
+| [0070-climbing-stairs](https://github.com/vinayjagannavar/LeetCode/tree/master/0070-climbing-stairs) |
 | [0241-different-ways-to-add-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0392-is-subsequence](https://github.com/vinayjagannavar/LeetCode/tree/master/0392-is-subsequence) |
 | [2755-extra-characters-in-a-string](https://github.com/vinayjagannavar/LeetCode/tree/master/2755-extra-characters-in-a-string) |
@@ -587,6 +589,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/vinayjagannavar/LeetCode/tree/master/0070-climbing-stairs) |
 | [0241-different-ways-to-add-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 ## Backtracking
 |  |
