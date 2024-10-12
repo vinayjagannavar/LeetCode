@@ -7,10 +7,10 @@ class Solution {
             int[] interval = intervals[i];
 
             if(!group.isEmpty() && interval[0]>group.peek()){
-                group.remove();
+                group.poll();
             }
 
-            group.add(interval[1]);
+            group.offer(interval[1]);
         }
 
         return group.size();
