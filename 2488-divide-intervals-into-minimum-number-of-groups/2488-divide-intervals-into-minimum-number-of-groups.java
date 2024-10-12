@@ -6,12 +6,11 @@ class Solution {
         for(int i=0; i<intervals.length; i++){
             int[] interval = intervals[i];
 
-            if(!group.isEmpty()){
-                if(interval[0]>group.peek()){
-                    group.poll();
-                }
+            if(!group.isEmpty() && interval[0]>group.peek()){
+                group.remove();
             }
-            group.offer(interval[1]);
+
+            group.add(interval[1]);
         }
 
         return group.size();
