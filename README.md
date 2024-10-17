@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0179-largest-number](https://github.com/vinayjagannavar/LeetCode/tree/master/0179-largest-number) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/vinayjagannavar/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/vinayjagannavar/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0670-maximum-swap](https://github.com/vinayjagannavar/LeetCode/tree/master/0670-maximum-swap) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vinayjagannavar/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/vinayjagannavar/LeetCode/tree/master/1304-longest-happy-string) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/vinayjagannavar/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -427,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0202-happy-number](https://github.com/vinayjagannavar/LeetCode/tree/master/0202-happy-number) |
 | [0241-different-ways-to-add-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0539-minimum-time-difference](https://github.com/vinayjagannavar/LeetCode/tree/master/0539-minimum-time-difference) |
+| [0670-maximum-swap](https://github.com/vinayjagannavar/LeetCode/tree/master/0670-maximum-swap) |
 | [1642-water-bottles](https://github.com/vinayjagannavar/LeetCode/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/vinayjagannavar/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2155-find-missing-observations](https://github.com/vinayjagannavar/LeetCode/tree/master/2155-find-missing-observations) |
