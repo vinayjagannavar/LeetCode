@@ -363,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/vinayjagannavar/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/vinayjagannavar/LeetCode/tree/master/0011-container-with-most-water) |
 | [0061-rotate-list](https://github.com/vinayjagannavar/LeetCode/tree/master/0061-rotate-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
@@ -450,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vinayjagannavar/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/vinayjagannavar/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/vinayjagannavar/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0022-generate-parentheses) |
@@ -507,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/vinayjagannavar/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/vinayjagannavar/LeetCode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/vinayjagannavar/LeetCode/tree/master/0139-word-break) |
