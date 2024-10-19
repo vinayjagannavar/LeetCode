@@ -280,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/vinayjagannavar/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/vinayjagannavar/LeetCode/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/vinayjagannavar/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vinayjagannavar/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0179-largest-number](https://github.com/vinayjagannavar/LeetCode/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/vinayjagannavar/LeetCode/tree/master/0198-house-robber) |
@@ -522,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0070-climbing-stairs](https://github.com/vinayjagannavar/LeetCode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/vinayjagannavar/LeetCode/tree/master/0091-decode-ways) |
 | [0139-word-break](https://github.com/vinayjagannavar/LeetCode/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/vinayjagannavar/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/vinayjagannavar/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0213-house-robber-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
