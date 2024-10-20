@@ -273,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0011-container-with-most-water](https://github.com/vinayjagannavar/LeetCode/tree/master/0011-container-with-most-water) |
 | [0046-permutations](https://github.com/vinayjagannavar/LeetCode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/vinayjagannavar/LeetCode/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/vinayjagannavar/LeetCode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/vinayjagannavar/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/vinayjagannavar/LeetCode/tree/master/0057-insert-interval) |
 | [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
@@ -524,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/vinayjagannavar/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0022-generate-parentheses) |
+| [0053-maximum-subarray](https://github.com/vinayjagannavar/LeetCode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/vinayjagannavar/LeetCode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/vinayjagannavar/LeetCode/tree/master/0091-decode-ways) |
 | [0139-word-break](https://github.com/vinayjagannavar/LeetCode/tree/master/0139-word-break) |
@@ -643,6 +645,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/vinayjagannavar/LeetCode/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 ## Memoization
