@@ -309,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0859-design-circular-deque](https://github.com/vinayjagannavar/LeetCode/tree/master/0859-design-circular-deque) |
 | [0876-hand-of-straights](https://github.com/vinayjagannavar/LeetCode/tree/master/0876-hand-of-straights) |
 | [0906-walking-robot-simulation](https://github.com/vinayjagannavar/LeetCode/tree/master/0906-walking-robot-simulation) |
+| [0954-maximum-sum-circular-subarray](https://github.com/vinayjagannavar/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [1002-maximum-width-ramp](https://github.com/vinayjagannavar/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1256-rank-transform-of-an-array](https://github.com/vinayjagannavar/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1293-three-consecutive-odds](https://github.com/vinayjagannavar/LeetCode/tree/master/1293-three-consecutive-odds) |
@@ -467,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0859-design-circular-deque](https://github.com/vinayjagannavar/LeetCode/tree/master/0859-design-circular-deque) |
+| [0954-maximum-sum-circular-subarray](https://github.com/vinayjagannavar/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/vinayjagannavar/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## String
 |  |
@@ -550,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0392-is-subsequence](https://github.com/vinayjagannavar/LeetCode/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0647-palindromic-substrings](https://github.com/vinayjagannavar/LeetCode/tree/master/0647-palindromic-substrings) |
+| [0954-maximum-sum-circular-subarray](https://github.com/vinayjagannavar/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [2755-extra-characters-in-a-string](https://github.com/vinayjagannavar/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 ## Tree
 |  |
@@ -660,6 +663,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0053-maximum-subarray](https://github.com/vinayjagannavar/LeetCode/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0954-maximum-sum-circular-subarray](https://github.com/vinayjagannavar/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 ## Memoization
 |  |
 | ------- |
@@ -722,4 +726,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/vinayjagannavar/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0954-maximum-sum-circular-subarray](https://github.com/vinayjagannavar/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 <!---LeetCode Topics End-->
