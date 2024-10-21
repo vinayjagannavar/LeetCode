@@ -240,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0098-validate-binary-search-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0101-symmetric-tree) |
+| [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/vinayjagannavar/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0226-invert-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/vinayjagannavar/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0100-same-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0101-symmetric-tree) |
+| [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/vinayjagannavar/LeetCode/tree/master/0322-coin-change) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/vinayjagannavar/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -270,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/vinayjagannavar/LeetCode/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/vinayjagannavar/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/vinayjagannavar/LeetCode/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [2035-count-sub-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/2035-count-sub-islands) |
@@ -294,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vinayjagannavar/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0179-largest-number](https://github.com/vinayjagannavar/LeetCode/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/vinayjagannavar/LeetCode/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0213-house-robber-ii) |
 | [0219-contains-duplicate-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0219-contains-duplicate-ii) |
@@ -608,6 +612,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
 | [2035-count-sub-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/2035-count-sub-islands) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/vinayjagannavar/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2411-spiral-matrix-iv](https://github.com/vinayjagannavar/LeetCode/tree/master/2411-spiral-matrix-iv) |
