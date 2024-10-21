@@ -261,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0226-invert-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/vinayjagannavar/LeetCode/tree/master/0322-coin-change) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/vinayjagannavar/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [1036-rotting-oranges](https://github.com/vinayjagannavar/LeetCode/tree/master/1036-rotting-oranges) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/vinayjagannavar/LeetCode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1484-linked-list-in-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/2035-count-sub-islands) |
@@ -317,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0954-maximum-sum-circular-subarray](https://github.com/vinayjagannavar/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [0974-reorder-data-in-log-files](https://github.com/vinayjagannavar/LeetCode/tree/master/0974-reorder-data-in-log-files) |
 | [1002-maximum-width-ramp](https://github.com/vinayjagannavar/LeetCode/tree/master/1002-maximum-width-ramp) |
+| [1036-rotting-oranges](https://github.com/vinayjagannavar/LeetCode/tree/master/1036-rotting-oranges) |
 | [1256-rank-transform-of-an-array](https://github.com/vinayjagannavar/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1293-three-consecutive-odds](https://github.com/vinayjagannavar/LeetCode/tree/master/1293-three-consecutive-odds) |
 | [1325-path-with-maximum-probability](https://github.com/vinayjagannavar/LeetCode/tree/master/1325-path-with-maximum-probability) |
@@ -613,6 +615,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
+| [1036-rotting-oranges](https://github.com/vinayjagannavar/LeetCode/tree/master/1036-rotting-oranges) |
 | [2035-count-sub-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/2035-count-sub-islands) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/vinayjagannavar/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2411-spiral-matrix-iv](https://github.com/vinayjagannavar/LeetCode/tree/master/2411-spiral-matrix-iv) |
