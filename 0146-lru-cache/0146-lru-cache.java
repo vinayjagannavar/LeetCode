@@ -1,86 +1,86 @@
-class ListNode{
-    int key;
-    int val;
-    ListNode node;
-    ListNode next;
-    ListNode prev;
-
-    public ListNode(int key, int val){
-        this.key = key;
-        this.val = val;
-        this.next = null;
-        this.prev = null;
-    }
-}
-
 class LRUCache {
-
-    Map<Integer, ListNode> map;
-    ListNode head;
-    ListNode tail;
-    int size;
-
-    public LRUCache(int capacity) {
-        this.size = capacity;
-        map = new HashMap<>();
-        head = new ListNode(-1,-1);
-        tail = new ListNode(-1,-1);
-        head.next = tail;
-        tail.prev = head;
-    }
-
-    private void addNode(ListNode newNode){
-        ListNode temp = head.next;
-        head.next = newNode;
-        newNode.prev = head;
-        newNode.next = temp;
-        temp.prev = newNode;
-    }
-
-    private void deleteNode(ListNode d){
-        ListNode pre = d.prev;
-        ListNode nex = d.next;
-        pre.next = nex;
-        nex.prev = pre;
-    }
-    
-    public int get(int key) {
-        if(!map.containsKey(key)){
-            return -1;
+    class DoubleLL{
+        int key;
+        int value;
+        DoubleLL prev;
+        DoubleLL next;
+        DoubleLL(int key,int val){
+            this.key=key;
+            this.value=val;
         }
 
-        ListNode p = map.get(key);
-        deleteNode(p);
-        addNode(p);
-        map.put(key,head.next);
-        return head.next.val;
     }
     
+    public int capacity;
+    // for counting the no.of Elements present in the doubleLL
+    public int count;
+    public DoubleLL map[];
+    public DoubleLL head,tail;
+    public LRUCache(int capacity) {
+        this.capacity=capacity;
+        count=0;
+        map=new DoubleLL[10000+1];
+        head=new DoubleLL(0,0);
+        tail=new DoubleLL(0,0);
+
+        head.next=tail;
+        tail.prev=head;
+
+        head.prev=null;
+        tail.next=null;
+            
+    }
+    public void addNode(DoubleLL node){
+        node.next=head.next;
+        node.next.prev=node;
+        node.prev=head;
+        head.next=node;
+        return;
+    }
+    public void deleteNode(DoubleLL node){
+        node.prev.next=node.next;
+        node.next.prev=node.prev;
+        return;
+    }
+    public int get(int key) {
+        if(map[key]!=null){
+            DoubleLL node=map[key];
+            int val=node.value;
+            deleteNode(node);
+            addNode(node);
+            return val;
+        }
+        return -1;
+             
+    }
     public void put(int key, int value) {
-        if(map.containsKey(key)){
-            ListNode c = map.get(key);
-            deleteNode(c);
-            c.val = value;
-            addNode(c);
-            map.put(key, head.next);
+        if(map[key]!=null){
+            DoubleLL node=map[key];
+            node.value=value;
+            deleteNode(node);
+            addNode(node);
         }
         else{
-            if(map.size() == size){
-                ListNode prev = tail.prev;
-                deleteNode(prev);
-                ListNode l = new ListNode(key, value);
-                addNode(l);
-                map.remove(prev.key);
-                map.put(key, head.next);
+            DoubleLL node=new DoubleLL(key,value);
+            map[key]=node;
+            if(count<capacity){
+                count++;
+                addNode(node);
             }
             else{
-                ListNode l = new ListNode(key, value);
-                addNode(l);
-                map.put(key, head.next);
-            }
+            map[tail.prev.key]=null;
+            deleteNode(tail.prev);
+            addNode(node);
+
         }
+        }
+        
+        return;
+        
+        
     }
 }
+
 
 /**
  * Your LRUCache object will be instantiated and called as such:
