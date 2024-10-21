@@ -388,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/vinayjagannavar/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/vinayjagannavar/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/vinayjagannavar/LeetCode/tree/master/1694-make-sum-divisible-by-p) |
+| [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/vinayjagannavar/LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/vinayjagannavar/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/vinayjagannavar/LeetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/vinayjagannavar/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -526,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1304-longest-happy-string](https://github.com/vinayjagannavar/LeetCode/tree/master/1304-longest-happy-string) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/vinayjagannavar/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/vinayjagannavar/LeetCode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
+| [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/vinayjagannavar/LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1720-crawler-log-folder](https://github.com/vinayjagannavar/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/vinayjagannavar/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/vinayjagannavar/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -708,6 +710,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0052-n-queens-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0052-n-queens-ii) |
 | [0077-combinations](https://github.com/vinayjagannavar/LeetCode/tree/master/0077-combinations) |
 | [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
+| [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/vinayjagannavar/LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/vinayjagannavar/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Rolling Hash
 |  |
