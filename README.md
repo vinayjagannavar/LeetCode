@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/vinayjagannavar/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/vinayjagannavar/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0670-maximum-swap](https://github.com/vinayjagannavar/LeetCode/tree/master/0670-maximum-swap) |
+| [0768-partition-labels](https://github.com/vinayjagannavar/LeetCode/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/vinayjagannavar/LeetCode/tree/master/0876-hand-of-straights) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vinayjagannavar/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/vinayjagannavar/LeetCode/tree/master/1304-longest-happy-string) |
@@ -378,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/vinayjagannavar/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0692-top-k-frequent-words](https://github.com/vinayjagannavar/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0726-number-of-atoms](https://github.com/vinayjagannavar/LeetCode/tree/master/0726-number-of-atoms) |
+| [0768-partition-labels](https://github.com/vinayjagannavar/LeetCode/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/vinayjagannavar/LeetCode/tree/master/0876-hand-of-straights) |
 | [0906-walking-robot-simulation](https://github.com/vinayjagannavar/LeetCode/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/vinayjagannavar/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -408,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0392-is-subsequence](https://github.com/vinayjagannavar/LeetCode/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/vinayjagannavar/LeetCode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/vinayjagannavar/LeetCode/tree/master/0647-palindromic-substrings) |
+| [0768-partition-labels](https://github.com/vinayjagannavar/LeetCode/tree/master/0768-partition-labels) |
 | [1923-sentence-similarity-iii](https://github.com/vinayjagannavar/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/vinayjagannavar/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/vinayjagannavar/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -514,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0647-palindromic-substrings](https://github.com/vinayjagannavar/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0692-top-k-frequent-words](https://github.com/vinayjagannavar/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0726-number-of-atoms](https://github.com/vinayjagannavar/LeetCode/tree/master/0726-number-of-atoms) |
+| [0768-partition-labels](https://github.com/vinayjagannavar/LeetCode/tree/master/0768-partition-labels) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/vinayjagannavar/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vinayjagannavar/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0974-reorder-data-in-log-files](https://github.com/vinayjagannavar/LeetCode/tree/master/0974-reorder-data-in-log-files) |
