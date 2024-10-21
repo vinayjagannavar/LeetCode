@@ -7,7 +7,7 @@ class Solution {
         int mins = 0;
 
         var queue = new ArrayDeque<int[]>();
-        boolean[][] visited = new boolean[row][col];
+        //boolean[][] visited = new boolean[row][col];
 
         for(int i=0; i<row; i++){
             for(int j=0; j<col; j++){
@@ -16,7 +16,8 @@ class Solution {
                 }
                 if(grid[i][j] == 2){
                     queue.offer(new int[]{i,j});
-                    visited[i][j]=true;
+                    grid[i][j]=0;
+                    //visited[i][j]=true;
                 }
             }
         }
@@ -36,9 +37,9 @@ class Solution {
                     var x = move[0] + val[0];
                     var y = move[1] + val[1];
 
-                    if(x>=0 && x<row && y>=0 && y<col && !visited[x][y] && grid[x][y] == 1){
+                    if(x>=0 && x<row && y>=0 && y<col && grid[x][y] == 1){
                         freshCount--;
-                        visited[x][y]=true;
+                        grid[x][y]=0;
                         queue.offer(new int[]{x,y});
                     }
                 }
