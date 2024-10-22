@@ -285,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/vinayjagannavar/LeetCode/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/vinayjagannavar/LeetCode/tree/master/0046-permutations) |
@@ -359,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vinayjagannavar/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/vinayjagannavar/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/vinayjagannavar/LeetCode/tree/master/0049-group-anagrams) |
