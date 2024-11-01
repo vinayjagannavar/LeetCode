@@ -308,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0055-jump-game](https://github.com/vinayjagannavar/LeetCode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/vinayjagannavar/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/vinayjagannavar/LeetCode/tree/master/0057-insert-interval) |
+| [0078-subsets](https://github.com/vinayjagannavar/LeetCode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -662,6 +663,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/vinayjagannavar/LeetCode/tree/master/0078-subsets) |
 | [0476-number-complement](https://github.com/vinayjagannavar/LeetCode/tree/master/0476-number-complement) |
 | [1435-xor-queries-of-a-subarray](https://github.com/vinayjagannavar/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/vinayjagannavar/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -766,6 +768,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0046-permutations](https://github.com/vinayjagannavar/LeetCode/tree/master/0046-permutations) |
 | [0052-n-queens-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0052-n-queens-ii) |
 | [0077-combinations](https://github.com/vinayjagannavar/LeetCode/tree/master/0077-combinations) |
+| [0078-subsets](https://github.com/vinayjagannavar/LeetCode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/vinayjagannavar/LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/vinayjagannavar/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
