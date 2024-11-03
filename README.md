@@ -561,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0692-top-k-frequent-words](https://github.com/vinayjagannavar/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0726-number-of-atoms](https://github.com/vinayjagannavar/LeetCode/tree/master/0726-number-of-atoms) |
 | [0768-partition-labels](https://github.com/vinayjagannavar/LeetCode/tree/master/0768-partition-labels) |
+| [0812-rotate-string](https://github.com/vinayjagannavar/LeetCode/tree/master/0812-rotate-string) |
 | [0837-most-common-word](https://github.com/vinayjagannavar/LeetCode/tree/master/0837-most-common-word) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/vinayjagannavar/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vinayjagannavar/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -792,6 +793,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/vinayjagannavar/LeetCode/tree/master/0214-shortest-palindrome) |
+| [0812-rotate-string](https://github.com/vinayjagannavar/LeetCode/tree/master/0812-rotate-string) |
 ## Hash Function
 |  |
 | ------- |
