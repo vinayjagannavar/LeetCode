@@ -1,45 +1,45 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        List<Integer> graph[] = new ArrayList[numCourses];
+        List<List<Integer>> adj = new ArrayList<>();
 
         for(int i=0; i<numCourses; i++){
-            graph[i]=new ArrayList<>();
+            adj.add(new ArrayList<>());
         }
 
-        for(int[] pre: prerequisites){
-            graph[pre[1]].add(pre[0]);
+        for(int[] prereq : prerequisites){
+            adj.get(prereq[0]).add(prereq[1]);
         }
 
-        boolean visited[] = new boolean[numCourses];
-        boolean recurVisited[] = new boolean[numCourses];
+        boolean[] vis = new boolean[numCourses];
+        boolean[] recStack = new boolean[numCourses];
 
         for(int i=0; i<numCourses; i++){
-            if(visited[i]==false){
-                boolean possible = dfs(graph, visited, recurVisited, i);
-                if(possible){
-                    return false;
-                }
+            if(dfs(i, adj, recStack, vis)) {
+                return false;
             }
         }
 
         return true;
+        
     }
 
-    private boolean dfs(List<Integer> graph[], boolean visited[], boolean recurVisited[], int curr){
-        visited[curr] = true;
-        recurVisited[curr] = true;
+    private boolean dfs(int start, List<List<Integer>> adj, boolean[] recStack, boolean[] vis){
+        vis[start] = true;
+        recStack[start] = true;
 
-        for(int i=0; i<graph[curr].size(); i++){
-            int neighbour = graph[curr].get(i);
-            if(recurVisited[neighbour]==true){
-                return true;
+        for(int it: adj.get(start)){
+            if(!vis[it]){
+                if(dfs(it,adj,recStack,vis)){
+                    return true;
+                }
             }
-            else if(!visited[neighbour] && dfs(graph, visited, recurVisited, neighbour)){
-                return true;
+             else if (recStack[it]) {
+                return true; 
             }
         }
 
-        recurVisited[curr] = false;
+        recStack[start] = false;
+
         return false;
     }
 }
