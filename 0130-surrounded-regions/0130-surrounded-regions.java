@@ -3,23 +3,21 @@ class Solution {
         int row = board.length;
         int col = board[0].length;
 
-        int[][] moves = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
-
         // Mark boundary-connected 'O's using DFS
         for (int i = 0; i < col; i++) {
             if (board[0][i] == 'O') {
-                dfs(board, 0, i, moves);
+                dfs(board, 0, i);
             }
             if (board[row - 1][i] == 'O') {
-                dfs(board, row - 1, i, moves);
+                dfs(board, row - 1, i);
             }
         }
         for (int i = 0; i < row; i++) {
             if (board[i][0] == 'O') {
-                dfs(board, i, 0, moves);
+                dfs(board, i, 0);
             }
             if (board[i][col - 1] == 'O') {
-                dfs(board, i, col - 1, moves);
+                dfs(board, i, col - 1);
             }
         }
 
@@ -35,17 +33,17 @@ class Solution {
         }
     }
 
-    private void dfs(char[][] board, int r, int c, int[][] moves) {
-        board[r][c] = 'Y'; // Mark the cell as visited by changing it to 'Y'
-
-        for (int[] move : moves) {
-            int x = r + move[0];
-            int y = c + move[1];
-
-            // Check if the new position is within bounds and is an 'O'
-            if (x >= 0 && x < board.length && y >= 0 && y < board[0].length && board[x][y] == 'O') {
-                dfs(board, x, y, moves);
-            }
+    public void dfs(char board[][], int i, int j) {
+        // Ensure indices are within bounds and only process 'O' cells
+        if (i < 0 || j < 0 || i >= board.length || j >= board[0].length || board[i][j] != 'O') {
+            return;
         }
+        board[i][j] = 'Y'; // Mark cell as visited
+
+        // Explore all 4 possible directions
+        dfs(board, i + 1, j);
+        dfs(board, i - 1, j);
+        dfs(board, i, j + 1);
+        dfs(board, i, j - 1);
     }
 }
