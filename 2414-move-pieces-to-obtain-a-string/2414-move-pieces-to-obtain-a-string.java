@@ -1,41 +1,23 @@
 class Solution {
     public boolean canChange(String start, String target) {
-        int startPointer = 0;
-        int targetPointer = 0;
+        char[] s = start.toCharArray();
+        char[] t = target.toCharArray();
+        int n = s.length;
+        int i=0, j=0;
 
-        String startStripped = start.replace("_", "");
-        String targetStripped = target.replace("_", "");
-        if (!startStripped.equals(targetStripped)) {
-            return false;
-        }
+        while(i<=n && j<=n){
 
-        // Compare positions of 'L' and 'R'
-        while (startPointer < start.length() && targetPointer < target.length()) {
-            // Skip underscores in `start`
-            while (startPointer < start.length() && start.charAt(startPointer) == '_') {
-                startPointer++;
-            }
-            // Skip underscores in `target`
-            while (targetPointer < target.length() && target.charAt(targetPointer) == '_') {
-                targetPointer++;
-            }
+            while(i<n && s[i] == '_') i++;
+            while(j<n && t[j] == '_') j++;
 
-            // If both pointers are within bounds
-            if (startPointer < start.length() && targetPointer < target.length()) {
-                char startChar = start.charAt(startPointer);
-                char targetChar = target.charAt(targetPointer);
+            if(i == n || j==n) return i==n && j==n;
 
-                // Check if characters match and are in valid positions
-                if (startChar != targetChar || 
-                    (startChar == 'L' && startPointer < targetPointer) || 
-                    (startChar == 'R' && startPointer > targetPointer)) {
-                    return false;
-                }
+            if(s[i]!=t[j]) return false;
+            if(s[i] == 'L' && i<j) return false;
+            else if(s[i] == 'R' && i>j) return false;
 
-                // Move to the next positions
-                startPointer++;
-                targetPointer++;
-            }
+            i++;
+            j++;
         }
 
         return true;
