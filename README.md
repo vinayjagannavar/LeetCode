@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0133-clone-graph](https://github.com/vinayjagannavar/LeetCode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/vinayjagannavar/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0210-course-schedule-ii) |
+| [0399-evaluate-division](https://github.com/vinayjagannavar/LeetCode/tree/master/0399-evaluate-division) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/vinayjagannavar/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1325-path-with-maximum-probability](https://github.com/vinayjagannavar/LeetCode/tree/master/1325-path-with-maximum-probability) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/vinayjagannavar/LeetCode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
@@ -278,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0226-invert-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/vinayjagannavar/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0386-lexicographical-numbers](https://github.com/vinayjagannavar/LeetCode/tree/master/0386-lexicographical-numbers) |
+| [0399-evaluate-division](https://github.com/vinayjagannavar/LeetCode/tree/master/0399-evaluate-division) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/vinayjagannavar/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/vinayjagannavar/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -306,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0210-course-schedule-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/vinayjagannavar/LeetCode/tree/master/0322-coin-change) |
+| [0399-evaluate-division](https://github.com/vinayjagannavar/LeetCode/tree/master/0399-evaluate-division) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/vinayjagannavar/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0787-sliding-puzzle](https://github.com/vinayjagannavar/LeetCode/tree/master/0787-sliding-puzzle) |
 | [1036-rotting-oranges](https://github.com/vinayjagannavar/LeetCode/tree/master/1036-rotting-oranges) |
@@ -328,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0128-longest-consecutive-sequence](https://github.com/vinayjagannavar/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/vinayjagannavar/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/vinayjagannavar/LeetCode/tree/master/0399-evaluate-division) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/vinayjagannavar/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/vinayjagannavar/LeetCode/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [2035-count-sub-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/2035-count-sub-islands) |
@@ -368,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0322-coin-change](https://github.com/vinayjagannavar/LeetCode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/vinayjagannavar/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0399-evaluate-division](https://github.com/vinayjagannavar/LeetCode/tree/master/0399-evaluate-division) |
 | [0416-partition-equal-subset-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/vinayjagannavar/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0539-minimum-time-difference](https://github.com/vinayjagannavar/LeetCode/tree/master/0539-minimum-time-difference) |
@@ -623,6 +628,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0290-word-pattern](https://github.com/vinayjagannavar/LeetCode/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/vinayjagannavar/LeetCode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/vinayjagannavar/LeetCode/tree/master/0392-is-subsequence) |
+| [0399-evaluate-division](https://github.com/vinayjagannavar/LeetCode/tree/master/0399-evaluate-division) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/vinayjagannavar/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0539-minimum-time-difference](https://github.com/vinayjagannavar/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0567-permutation-in-string](https://github.com/vinayjagannavar/LeetCode/tree/master/0567-permutation-in-string) |
@@ -782,6 +788,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Shortest Path
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/vinayjagannavar/LeetCode/tree/master/0399-evaluate-division) |
 | [1325-path-with-maximum-probability](https://github.com/vinayjagannavar/LeetCode/tree/master/1325-path-with-maximum-probability) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/vinayjagannavar/LeetCode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2803-modify-graph-edge-weights](https://github.com/vinayjagannavar/LeetCode/tree/master/2803-modify-graph-edge-weights) |
