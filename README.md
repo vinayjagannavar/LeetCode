@@ -342,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0001-two-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/vinayjagannavar/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0015-3sum) |
+| [0035-search-insert-position](https://github.com/vinayjagannavar/LeetCode/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0045-jump-game-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0045-jump-game-ii) |
@@ -520,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/vinayjagannavar/LeetCode/tree/master/0035-search-insert-position) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vinayjagannavar/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0300-longest-increasing-subsequence](https://github.com/vinayjagannavar/LeetCode/tree/master/0300-longest-increasing-subsequence) |
