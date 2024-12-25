@@ -384,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/vinayjagannavar/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0729-my-calendar-i](https://github.com/vinayjagannavar/LeetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0731-my-calendar-ii) |
+| [0772-construct-quad-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0787-sliding-puzzle](https://github.com/vinayjagannavar/LeetCode/tree/master/0787-sliding-puzzle) |
 | [0837-most-common-word](https://github.com/vinayjagannavar/LeetCode/tree/master/0837-most-common-word) |
 | [0859-design-circular-deque](https://github.com/vinayjagannavar/LeetCode/tree/master/0859-design-circular-deque) |
@@ -746,6 +747,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0230-kth-smallest-element-in-a-bst](https://github.com/vinayjagannavar/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/vinayjagannavar/LeetCode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/vinayjagannavar/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0772-construct-quad-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0988-flip-equivalent-binary-trees](https://github.com/vinayjagannavar/LeetCode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1484-linked-list-in-binary-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
@@ -810,6 +812,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/vinayjagannavar/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
+| [0772-construct-quad-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0787-sliding-puzzle](https://github.com/vinayjagannavar/LeetCode/tree/master/0787-sliding-puzzle) |
 | [1036-rotting-oranges](https://github.com/vinayjagannavar/LeetCode/tree/master/1036-rotting-oranges) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/vinayjagannavar/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -890,6 +893,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0148-sort-list](https://github.com/vinayjagannavar/LeetCode/tree/master/0148-sort-list) |
 | [0347-top-k-frequent-elements](https://github.com/vinayjagannavar/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0772-construct-quad-tree](https://github.com/vinayjagannavar/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0948-sort-an-array](https://github.com/vinayjagannavar/LeetCode/tree/master/0948-sort-an-array) |
 | [0954-maximum-sum-circular-subarray](https://github.com/vinayjagannavar/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 ## Memoization
