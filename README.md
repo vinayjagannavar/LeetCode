@@ -436,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/vinayjagannavar/LeetCode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2716-prime-subtraction-operation](https://github.com/vinayjagannavar/LeetCode/tree/master/2716-prime-subtraction-operation) |
 | [2755-extra-characters-in-a-string](https://github.com/vinayjagannavar/LeetCode/tree/master/2755-extra-characters-in-a-string) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/vinayjagannavar/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/vinayjagannavar/LeetCode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2846-robot-collisions](https://github.com/vinayjagannavar/LeetCode/tree/master/2846-robot-collisions) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/vinayjagannavar/LeetCode/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
@@ -491,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2586-longest-square-streak-in-an-array](https://github.com/vinayjagannavar/LeetCode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2755-extra-characters-in-a-string](https://github.com/vinayjagannavar/LeetCode/tree/master/2755-extra-characters-in-a-string) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/vinayjagannavar/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/vinayjagannavar/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/vinayjagannavar/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Two Pointers
@@ -797,6 +799,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/vinayjagannavar/LeetCode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/vinayjagannavar/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/vinayjagannavar/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/vinayjagannavar/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3291-find-if-array-can-be-sorted](https://github.com/vinayjagannavar/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3394-minimum-array-end](https://github.com/vinayjagannavar/LeetCode/tree/master/3394-minimum-array-end) |
 ## Shortest Path
