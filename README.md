@@ -356,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0055-jump-game](https://github.com/vinayjagannavar/LeetCode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/vinayjagannavar/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/vinayjagannavar/LeetCode/tree/master/0057-insert-interval) |
+| [0074-search-a-2d-matrix](https://github.com/vinayjagannavar/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/vinayjagannavar/LeetCode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vinayjagannavar/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -529,6 +530,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/vinayjagannavar/LeetCode/tree/master/0035-search-insert-position) |
+| [0074-search-a-2d-matrix](https://github.com/vinayjagannavar/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vinayjagannavar/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0300-longest-increasing-subsequence](https://github.com/vinayjagannavar/LeetCode/tree/master/0300-longest-increasing-subsequence) |
@@ -812,6 +814,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/vinayjagannavar/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/vinayjagannavar/LeetCode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/vinayjagannavar/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/vinayjagannavar/LeetCode/tree/master/0200-number-of-islands) |
