@@ -389,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0322-coin-change](https://github.com/vinayjagannavar/LeetCode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/vinayjagannavar/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0380-insert-delete-getrandom-o1](https://github.com/vinayjagannavar/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0399-evaluate-division](https://github.com/vinayjagannavar/LeetCode/tree/master/0399-evaluate-division) |
 | [0416-partition-equal-subset-sum](https://github.com/vinayjagannavar/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/vinayjagannavar/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -479,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0290-word-pattern](https://github.com/vinayjagannavar/LeetCode/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/vinayjagannavar/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/vinayjagannavar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0380-insert-delete-getrandom-o1](https://github.com/vinayjagannavar/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/vinayjagannavar/LeetCode/tree/master/0383-ransom-note) |
 | [0432-all-oone-data-structure](https://github.com/vinayjagannavar/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/vinayjagannavar/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -618,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0202-happy-number](https://github.com/vinayjagannavar/LeetCode/tree/master/0202-happy-number) |
 | [0224-basic-calculator](https://github.com/vinayjagannavar/LeetCode/tree/master/0224-basic-calculator) |
 | [0241-different-ways-to-add-parentheses](https://github.com/vinayjagannavar/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0380-insert-delete-getrandom-o1](https://github.com/vinayjagannavar/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0539-minimum-time-difference](https://github.com/vinayjagannavar/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0670-maximum-swap](https://github.com/vinayjagannavar/LeetCode/tree/master/0670-maximum-swap) |
 | [1642-water-bottles](https://github.com/vinayjagannavar/LeetCode/tree/master/1642-water-bottles) |
@@ -866,6 +869,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0173-binary-search-tree-iterator](https://github.com/vinayjagannavar/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/vinayjagannavar/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0303-range-sum-query-immutable](https://github.com/vinayjagannavar/LeetCode/tree/master/0303-range-sum-query-immutable) |
+| [0380-insert-delete-getrandom-o1](https://github.com/vinayjagannavar/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0432-all-oone-data-structure](https://github.com/vinayjagannavar/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0460-lfu-cache](https://github.com/vinayjagannavar/LeetCode/tree/master/0460-lfu-cache) |
 | [0729-my-calendar-i](https://github.com/vinayjagannavar/LeetCode/tree/master/0729-my-calendar-i) |
@@ -1048,4 +1052,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/vinayjagannavar/LeetCode/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/vinayjagannavar/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
