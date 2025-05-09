@@ -633,6 +633,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2645-pass-the-pillow](https://github.com/vinayjagannavar/LeetCode/tree/master/2645-pass-the-pillow) |
 | [2716-prime-subtraction-operation](https://github.com/vinayjagannavar/LeetCode/tree/master/2716-prime-subtraction-operation) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/vinayjagannavar/LeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3637-count-number-of-balanced-permutations](https://github.com/vinayjagannavar/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 ## Recursion
 |  |
 | ------- |
@@ -716,6 +717,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3195-separate-black-and-white-balls](https://github.com/vinayjagannavar/LeetCode/tree/master/3195-separate-black-and-white-balls) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/vinayjagannavar/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3451-string-compression-iii](https://github.com/vinayjagannavar/LeetCode/tree/master/3451-string-compression-iii) |
+| [3637-count-number-of-balanced-permutations](https://github.com/vinayjagannavar/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 ## Stack
 |  |
 | ------- |
@@ -768,6 +770,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2586-longest-square-streak-in-an-array](https://github.com/vinayjagannavar/LeetCode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2755-extra-characters-in-a-string](https://github.com/vinayjagannavar/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/vinayjagannavar/LeetCode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3637-count-number-of-balanced-permutations](https://github.com/vinayjagannavar/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 ## Tree
 |  |
 | ------- |
@@ -1066,4 +1069,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/vinayjagannavar/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+## Combinatorics
+|  |
+| ------- |
+| [3637-count-number-of-balanced-permutations](https://github.com/vinayjagannavar/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 <!---LeetCode Topics End-->
