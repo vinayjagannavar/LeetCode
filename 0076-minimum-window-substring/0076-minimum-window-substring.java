@@ -1,48 +1,34 @@
 class Solution {
-    public String minWindow(String s, String t) {
-        if (s == null || t == null || s.length() < t.length()) return "";
-
-        Map<Character, Integer> targetCount = new HashMap<>();
-        for (char c : t.toCharArray()) {
-            targetCount.put(c, targetCount.getOrDefault(c, 0) + 1);
-        }
-
-        Map<Character, Integer> windowCount = new HashMap<>();
-        int left = 0, right = 0;
-        int required = targetCount.size();
-        int formed = 0;
-
-        int[] ans = {-1, 0, 0}; // length, start, end
-
-        while (right < s.length()) {
-            char c = s.charAt(right);
-            windowCount.put(c, windowCount.getOrDefault(c, 0) + 1);
-
-            if (targetCount.containsKey(c) && 
-                windowCount.get(c).intValue() == targetCount.get(c).intValue()) {
-                formed++;
-            }
-
-            // Try and contract the window till the point it ceases to be 'desirable'
-            while (left <= right && formed == required) {
-                c = s.charAt(left);
-                if (ans[0] == -1 || right - left + 1 < ans[0]) {
-                    ans[0] = right - left + 1;
-                    ans[1] = left;
-                    ans[2] = right;
+    static{
+        for(int i = 0; i < 500; i++) minWindow("", "a");
+    }
+    public static String minWindow(String s, String t) {
+        int[] hash = new int[128];
+        for(char c : t.toCharArray()) hash[c]++;
+        int minI = -1, maxI = Integer.MAX_VALUE - 1;
+        int count = 0, total = t.length();
+        char[] sCh = s.toCharArray();
+        for(int right = 0, left = 0; right < s.length(); right++){
+            if(hash[sCh[right]]-- > 0) count++;
+            if(count == total){
+                while(true){
+                    if(hash[sCh[left]] == 0){
+                        hash[sCh[left]]++;
+                        count--;
+                        break;
+                    } else {
+                        hash[sCh[left]]++;
+                        left++;
+                    }
                 }
-
-                windowCount.put(c, windowCount.get(c) - 1);
-                if (targetCount.containsKey(c) && 
-                    windowCount.get(c).intValue() < targetCount.get(c).intValue()) {
-                    formed--;
+                if(maxI - minI > right - left){
+                    maxI = right;
+                    minI = left;
                 }
                 left++;
             }
-
-            right++;
         }
-
-        return ans[0] == -1 ? "" : s.substring(ans[1], ans[2] + 1);
+        if(minI == -1) return "";
+        return s.substring(minI,maxI + 1);
     }
 }
